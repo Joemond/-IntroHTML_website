@@ -39,16 +39,16 @@
     height="500">
     <p>While I don't read many books now, if I ever have any freetime, I like to read.</p>
 
-    <li>Watching videos(anime, YouTube, Twitch)</li>
+    <li>Watching videos(anime, YouTube, Twitch)&copy</li>
     <img src="https://upload.wikimedia.org/wikipedia/en/thumb/1/1c/YouTube_homepage.png/300px-YouTube_homepage.png" 
     alt="YouTube"
     width="500"
     height="500">
-    <p>Iwatch youtube when im bored</p>
+    <p>I watch youtube when im bored</p>
   </ul>
   <p>Here's an example of a YouTuber I like to watch when I'm bored.</p>
 <video id="vid" width="420">
-          <source src="Videos/b.mp4" type="video/mp4">
+        <source src="Videos/b.mp4" type="video/mp4">
         </video>
         <script>
             var vid = document.getElementById("vid")
@@ -56,8 +56,20 @@
         <br>
         <button onclick="vid.play()">Play</button> 
         <button onclick="vid.pause()">Pause</button>
-
-<p><a href="spots.html">How to spots</a></p>
+	<form>  
+        <label for="name">Your name:</label><br>
+        <input type="text" id="name" name="name"><br>
+        <label for="favorite youtuber">favorite youtuber:</label><br>
+        <input type="favorite youtuber" id="favorite youtuber" name="favorite youtuber">
+        <input type="submit">          
+    </form>
+<section>
+    <h2>
+        More:
+    </h2>
+	<nav>
+<p><a href="spots.html">NYC Spots</a></p>
 <p><a href="index.html">Home</a></p>
+</nav>
 </body>
 </html>
